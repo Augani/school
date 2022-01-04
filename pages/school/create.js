@@ -11,7 +11,7 @@ export default function Home() {
             src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
             alt="Workflow"
           />
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Enter your school code</h2>
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">School not found, Enter your school code to save</h2>
 
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
@@ -41,7 +41,7 @@ export default function Home() {
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
 
-              Continue
+              Save
             </button>
           </div>
         </form>
